@@ -277,57 +277,57 @@ nav ul li a{
 
 }
 
-
-.form-container {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  
+.centraliza{
+   text-align: center;
 }
 
-.form-container h2 {
-  margin-bottom: 1rem;
-  color: #333;
-  text-align: center;
-}
+.formulario-contato {
+   border: 5px solid #E94E1B;
+   background-color: white;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+   max-width: 800px;
+   margin: auto;
+   margin-top: 40px;
+   color: black;
+ }
+ 
+ .grupo-form {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   font-size: 1.2em;
+ }
+ 
+ .grupo-form input,
+ .grupo-form select,
+ .grupo-form textarea {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   font-size: 1em;
+   margin-top: 8px;
+ }
+ 
+ .grupo-form input[type="checkbox"],
+ .grupo-form input[type="radio"] {
+   margin-right: 8px;
+   margin-top: 0;
+ }
+ 
+ .grupo-form label {
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
 
-form label {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #555;
+.btn1{
+   background-color: #F26419;
+   color: white;
+   padding: 10px;
+   border-radius: 6px;
+   cursor: pointer;
 }
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-}
-
-form button {
-  width: 100%;
-  padding: 0.8rem;
-  background: #a00000;
-  color: #F0F0F0;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-form button:hover {
-   transition: 0.3s;
-  border: 5px solid #a00000;
-  background: #F0F0F0;
-  color: #a00000;
-}
-
 
 
 
@@ -520,3 +520,4 @@ footer{
       }
 
  }
+
