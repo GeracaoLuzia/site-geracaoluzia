@@ -163,7 +163,6 @@ nav ul li a{
  }
 
  #encontros{
-   background-color:  #a00000;
    padding-left: 20px;
    padding-right: 20px;
    margin-left: 30px;
@@ -252,22 +251,11 @@ nav ul li a{
     transform: scale(1.05); 
    }
 
-.modal-content h4 a {
-   text-decoration: none;
-   color: #F26419;
-}
-
+   
 #contato .cont-tit{
    display: flex;
    justify-content: center;
-}
-
-#contato .cont-itens{
-   margin-left: 10px;
-   margin-right: 10px;
-   background-color: #F26419;
-   padding: 15px 15px 15px 15px;
-   border: 5px solid #E94E1B;
+   color: #f6f4e8;
 }
 
 #contato p{
@@ -278,11 +266,12 @@ nav ul li a{
 }
 
 .centraliza{
+   color: #f6f4e8;
    text-align: center;
 }
 
 .formulario-contato {
-   border: 5px solid #E94E1B;
+   border: 5px solid #dfdcccff;
    background-color: white;
    padding: 30px;
    border-radius: 12px;
@@ -290,7 +279,7 @@ nav ul li a{
    max-width: 800px;
    margin: auto;
    margin-top: 40px;
-   color: black;
+   color: #a00000;
  }
  
  .grupo-form {
@@ -321,30 +310,33 @@ nav ul li a{
    font-weight: bold;
  }
 
-.btn1{
-   background-color: #F26419;
-   color: white;
-   padding: 10px;
-   border-radius: 6px;
-   cursor: pointer;
-}
-
-
-
-
-
-footer{
-   margin-top: 10px;
+.footer-contato{
+   border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
    align-items: center;
-   background: #a00000;
-   color: #F0F0F0;
-   padding: 15px 15px 15px 15px;
-   
-   margin-left: 20px;
-   margin-right: 20px;
-}
+    margin-top:34px;
+    background-color: #f6f4e8;
+    padding: 15px 15px 15px 15px;
+    border: 5px solid #dfdcccff;
+    color:#b90000;
+    margin-left:auto;
+    margin-right:auto;
+    gap:12px;
+ }
+
+ .footer-contato h3{
+   color: #6e0101;
+ }
+
+ .insta{
+   color: #b90000;
+ }
+
+ .footer-dir{
+   color: #b9000083;
+ }
 
 /*Modal*/
 
@@ -520,4 +512,3 @@ footer{
       }
 
  }
-
